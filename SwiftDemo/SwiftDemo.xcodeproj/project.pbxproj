@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69AEB7CF1951376200A4DE20 /* ObjcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AEB7CA1951376200A4DE20 /* ObjcViewController.m */; };
+		69AEB7D01951376200A4DE20 /* ObjcViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69AEB7CB1951376200A4DE20 /* ObjcViewController.xib */; };
+		69AEB7D11951376200A4DE20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AEB7CD1951376200A4DE20 /* ViewController.swift */; };
+		69AEB7D21951376200A4DE20 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69AEB7CE1951376200A4DE20 /* ViewController.xib */; };
+		69AEB7D5195137DE00A4DE20 /* SwiftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AEB7D3195137DE00A4DE20 /* SwiftTableViewCell.swift */; };
+		69AEB7D6195137DE00A4DE20 /* SwiftTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69AEB7D4195137DE00A4DE20 /* SwiftTableViewCell.xib */; };
+		69AEB7DA195137F700A4DE20 /* ObjcTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AEB7D8195137F700A4DE20 /* ObjcTableViewCell.m */; };
+		69AEB7DB195137F700A4DE20 /* ObjcTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69AEB7D9195137F700A4DE20 /* ObjcTableViewCell.xib */; };
 		69CA6CB3193DB6CF00D8E325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA6CB2193DB6CF00D8E325 /* AppDelegate.swift */; };
 		69CA6CB5193DB6CF00D8E325 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69CA6CB4193DB6CF00D8E325 /* Images.xcassets */; };
 		69CA6CC1193DB6CF00D8E325 /* SwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA6CC0193DB6CF00D8E325 /* SwiftDemoTests.swift */; };
-		69CA6CCC193DB7AE00D8E325 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA6CCA193DB7AE00D8E325 /* ViewController.swift */; };
-		69CA6CCD193DB7AE00D8E325 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69CA6CCB193DB7AE00D8E325 /* ViewController.xib */; };
-		69CA6CD0193DC23500D8E325 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA6CCE193DC23500D8E325 /* NextViewController.swift */; };
-		69CA6CD1193DC23500D8E325 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69CA6CCF193DC23500D8E325 /* NextViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69AEB7C21951358800A4DE20 /* SwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		69AEB7C91951376200A4DE20 /* ObjcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcViewController.h; sourceTree = "<group>"; };
+		69AEB7CA1951376200A4DE20 /* ObjcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcViewController.m; sourceTree = "<group>"; };
+		69AEB7CB1951376200A4DE20 /* ObjcViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ObjcViewController.xib; sourceTree = "<group>"; };
+		69AEB7CD1951376200A4DE20 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69AEB7CE1951376200A4DE20 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		69AEB7D3195137DE00A4DE20 /* SwiftTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTableViewCell.swift; sourceTree = "<group>"; };
+		69AEB7D4195137DE00A4DE20 /* SwiftTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwiftTableViewCell.xib; sourceTree = "<group>"; };
+		69AEB7D7195137F700A4DE20 /* ObjcTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcTableViewCell.h; sourceTree = "<group>"; };
+		69AEB7D8195137F700A4DE20 /* ObjcTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcTableViewCell.m; sourceTree = "<group>"; };
+		69AEB7D9195137F700A4DE20 /* ObjcTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ObjcTableViewCell.xib; sourceTree = "<group>"; };
 		69CA6CAD193DB6CF00D8E325 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CA6CB1193DB6CF00D8E325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69CA6CB2193DB6CF00D8E325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,10 +49,6 @@
 		69CA6CBA193DB6CF00D8E325 /* SwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CA6CBF193DB6CF00D8E325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69CA6CC0193DB6CF00D8E325 /* SwiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoTests.swift; sourceTree = "<group>"; };
-		69CA6CCA193DB7AE00D8E325 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		69CA6CCB193DB7AE00D8E325 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		69CA6CCE193DC23500D8E325 /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
-		69CA6CCF193DC23500D8E325 /* NextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69AEB7C81951376200A4DE20 /* Objc */ = {
+			isa = PBXGroup;
+			children = (
+				69AEB7C91951376200A4DE20 /* ObjcViewController.h */,
+				69AEB7CA1951376200A4DE20 /* ObjcViewController.m */,
+				69AEB7CB1951376200A4DE20 /* ObjcViewController.xib */,
+				69AEB7D7195137F700A4DE20 /* ObjcTableViewCell.h */,
+				69AEB7D8195137F700A4DE20 /* ObjcTableViewCell.m */,
+				69AEB7D9195137F700A4DE20 /* ObjcTableViewCell.xib */,
+			);
+			path = Objc;
+			sourceTree = "<group>";
+		};
+		69AEB7CC1951376200A4DE20 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				69AEB7CD1951376200A4DE20 /* ViewController.swift */,
+				69AEB7CE1951376200A4DE20 /* ViewController.xib */,
+				69AEB7D3195137DE00A4DE20 /* SwiftTableViewCell.swift */,
+				69AEB7D4195137DE00A4DE20 /* SwiftTableViewCell.xib */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
 		69CA6CA4193DB6CF00D8E325 = {
 			isa = PBXGroup;
 			children = (
@@ -79,13 +114,12 @@
 		69CA6CAF193DB6CF00D8E325 /* SwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
-				69CA6CCE193DC23500D8E325 /* NextViewController.swift */,
-				69CA6CCF193DC23500D8E325 /* NextViewController.xib */,
-				69CA6CCA193DB7AE00D8E325 /* ViewController.swift */,
-				69CA6CCB193DB7AE00D8E325 /* ViewController.xib */,
+				69AEB7C81951376200A4DE20 /* Objc */,
+				69AEB7CC1951376200A4DE20 /* Swift */,
 				69CA6CB2193DB6CF00D8E325 /* AppDelegate.swift */,
 				69CA6CB4193DB6CF00D8E325 /* Images.xcassets */,
 				69CA6CB0193DB6CF00D8E325 /* Supporting Files */,
+				69AEB7C21951358800A4DE20 /* SwiftDemo-Bridging-Header.h */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
@@ -194,9 +228,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69CA6CD1193DC23500D8E325 /* NextViewController.xib in Resources */,
-				69CA6CCD193DB7AE00D8E325 /* ViewController.xib in Resources */,
+				69AEB7D01951376200A4DE20 /* ObjcViewController.xib in Resources */,
+				69AEB7D21951376200A4DE20 /* ViewController.xib in Resources */,
 				69CA6CB5193DB6CF00D8E325 /* Images.xcassets in Resources */,
+				69AEB7DB195137F700A4DE20 /* ObjcTableViewCell.xib in Resources */,
+				69AEB7D6195137DE00A4DE20 /* SwiftTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,9 +250,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69CA6CCC193DB7AE00D8E325 /* ViewController.swift in Sources */,
-				69CA6CD0193DC23500D8E325 /* NextViewController.swift in Sources */,
+				69AEB7D11951376200A4DE20 /* ViewController.swift in Sources */,
+				69AEB7CF1951376200A4DE20 /* ObjcViewController.m in Sources */,
 				69CA6CB3193DB6CF00D8E325 /* AppDelegate.swift in Sources */,
+				69AEB7DA195137F700A4DE20 /* ObjcTableViewCell.m in Sources */,
+				69AEB7D5195137DE00A4DE20 /* SwiftTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,9 +359,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemo/SwiftDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -332,9 +373,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemo/SwiftDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};

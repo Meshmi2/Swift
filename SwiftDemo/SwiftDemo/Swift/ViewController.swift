@@ -19,7 +19,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Main"
+        self.title = "Swift"
         self.mainTableView.delegate = self
         self.mainTableView.dataSource = self
 
@@ -49,11 +49,12 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     }
     
     func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int{
-        return 10;
+        return 20;
     }
+    
     func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
-        var next = NextViewController(nibName:"NextViewController" ,bundle:NSBundle.mainBundle());
-        self.navigationController.pushViewController(next,animated:true)
+        var objc = ObjcViewController(nibName:"ObjcViewController" ,bundle:NSBundle.mainBundle());
+        self.navigationController.pushViewController(objc,animated:true)
     }
 }
