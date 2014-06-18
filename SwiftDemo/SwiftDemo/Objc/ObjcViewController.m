@@ -53,12 +53,15 @@
     return 20;
 }
 
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 80.0f;
+}
+
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     ObjcTableViewCell *cell = (ObjcTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"ObjcTableViewCell"];
     if (cell == nil) {
         cell = (ObjcTableViewCell *)[[[NSBundle mainBundle]loadNibNamed:@"ObjcTableViewCell" owner:nil options:nil] objectAtIndex:0];
     }
-    cell.textLabel.text = [NSString stringWithFormat:@"Row %d",indexPath.row];
     return cell;
 }
 

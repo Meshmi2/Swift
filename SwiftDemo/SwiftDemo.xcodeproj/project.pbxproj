@@ -15,6 +15,7 @@
 		69AEB7D6195137DE00A4DE20 /* SwiftTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69AEB7D4195137DE00A4DE20 /* SwiftTableViewCell.xib */; };
 		69AEB7DA195137F700A4DE20 /* ObjcTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AEB7D8195137F700A4DE20 /* ObjcTableViewCell.m */; };
 		69AEB7DB195137F700A4DE20 /* ObjcTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69AEB7D9195137F700A4DE20 /* ObjcTableViewCell.xib */; };
+		69AEB7DD1951C87600A4DE20 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 69AEB7DC1951C87600A4DE20 /* twitter.png */; };
 		69CA6CB3193DB6CF00D8E325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA6CB2193DB6CF00D8E325 /* AppDelegate.swift */; };
 		69CA6CB5193DB6CF00D8E325 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69CA6CB4193DB6CF00D8E325 /* Images.xcassets */; };
 		69CA6CC1193DB6CF00D8E325 /* SwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA6CC0193DB6CF00D8E325 /* SwiftDemoTests.swift */; };
@@ -42,6 +43,7 @@
 		69AEB7D7195137F700A4DE20 /* ObjcTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcTableViewCell.h; sourceTree = "<group>"; };
 		69AEB7D8195137F700A4DE20 /* ObjcTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcTableViewCell.m; sourceTree = "<group>"; };
 		69AEB7D9195137F700A4DE20 /* ObjcTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ObjcTableViewCell.xib; sourceTree = "<group>"; };
+		69AEB7DC1951C87600A4DE20 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
 		69CA6CAD193DB6CF00D8E325 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CA6CB1193DB6CF00D8E325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69CA6CB2193DB6CF00D8E325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		69CA6CB0193DB6CF00D8E325 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				69AEB7DC1951C87600A4DE20 /* twitter.png */,
 				69CA6CB1193DB6CF00D8E325 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -231,6 +234,7 @@
 				69AEB7D01951376200A4DE20 /* ObjcViewController.xib in Resources */,
 				69AEB7D21951376200A4DE20 /* ViewController.xib in Resources */,
 				69CA6CB5193DB6CF00D8E325 /* Images.xcassets in Resources */,
+				69AEB7DD1951C87600A4DE20 /* twitter.png in Resources */,
 				69AEB7DB195137F700A4DE20 /* ObjcTableViewCell.xib in Resources */,
 				69AEB7D6195137DE00A4DE20 /* SwiftTableViewCell.xib in Resources */,
 			);
@@ -361,6 +365,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemo/SwiftDemo-Bridging-Header.h";
@@ -375,6 +380,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemo/SwiftDemo-Bridging-Header.h";

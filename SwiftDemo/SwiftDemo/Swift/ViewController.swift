@@ -20,8 +20,6 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Swift"
-        self.mainTableView.delegate = self
-        self.mainTableView.dataSource = self
 
         // Do any additional setup after loading the view.
     }
@@ -41,20 +39,28 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         // Pass the selected object to the new view controller.
     }
     */
-    func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell!{
-        let cellIndentifly = "cell"
-        var cell : UITableViewCell =  UITableViewCell(style:UITableViewCellStyle.Default, reuseIdentifier:cellIndentifly)
-        cell.textLabel.text = "Row \(indexPath.row)"
-        return cell as UITableViewCell
-    }
     
     func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int{
-        return 20;
+        return 10
+    }
+    
+    func tableView(tableView: UITableView!, heightForRowAtIndexPath indexPath: NSIndexPath!) -> Float{
+        return 80
+    }
+
+    func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell!{
+        let cellIndentifly = "SwiftTableViewCell"
+        var cell : SwiftTableViewCell? = tableView.dequeueReusableCellWithIdentifier(cellIndentifly) as? SwiftTableViewCell
+        if !cell {
+            var cellViews = NSBundle.mainBundle().loadNibNamed("SwiftTableViewCell", owner: self, options: nil)
+            cell = cellViews[0] as? SwiftTableViewCell
+        }
+        return cell
     }
     
     func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
-        var objc = ObjcViewController(nibName:"ObjcViewController" ,bundle:NSBundle.mainBundle());
+        var objc = ObjcViewController(nibName:"ObjcViewController" ,bundle:NSBundle.mainBundle())
         self.navigationController.pushViewController(objc,animated:true)
     }
 }
